@@ -27,7 +27,7 @@
 }
 .intro ul li {
     position: relative;
-    padding: 30px 40px;
+    padding: 30px 20px;
     font-size: 18px;
     color: white;
     font-family: Arial;
@@ -49,23 +49,14 @@
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: -220px;
-    margin-left: -250px;
-}
-#PERFECT {
-    color: yellow;
-    font-size: 50px;
-    font-family: Arial;
-    justify-content: center;
-    align-items: center;
-    margin-top: -57px;
-    margin-left: 940px;
+    margin-top: -150px;
 }
 
 .button {
-    margin-top: 50px;
-    margin-left: 720px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
@@ -75,4 +66,74 @@
     color: white;
     width: 200px;
     height: 70px;
+    transition: all 0.4s ease;
 }
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.second-page {
+    width:  100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+}
+.para {
+    width: 50%;
+    background-color:white;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+#para1 {
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#para2 {
+    color: rgb(56, 55, 55);
+    font-size: 19px;
+    font-family: sans-serif;
+}
+#para3 {
+    color: rgb(56, 55, 55);
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.login {
+    width: 50%;
+    height: 400px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 5px solid rgb(209, 209, 209);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frame {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(231, 231, 231);
+    margin: 20px;
+    width: 220px;
+    height: 40px;
+}
+#link {
+    color: orange;
+    align-self: flex-start;
+    margin-left: 50px;
+    margin-top: 20px;   
+}
+
