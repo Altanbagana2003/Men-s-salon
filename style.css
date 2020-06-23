@@ -32,24 +32,22 @@
     color: white;
     font-family: Arial;
 }
+
+.txt {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 150px 0px 10px 0px;    
+}
 #txt1 {
     font-size: 50px;
     font-family: Arial;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 60vh;
-    width: 600px;
 }
 #txt2 {
     font-size: 50px;
     font-family: Arial;
     color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: -150px;
 }
 
 .button {
@@ -83,8 +81,10 @@
 .para {
     width: 50%;
     background-color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
     margin-left: 40px;
-    margin-top: 60px;
 }
 
 #para1 {
@@ -124,7 +124,8 @@
 
 #frame {
     border: none;
-    border-radius: 8px;
+    padding-left: 10px;
+    border-radius: 2px;
     background-color: rgb(231, 231, 231);
     margin: 20px;
     width: 220px;
